@@ -1,7 +1,7 @@
 module.exports = {
-  title: 'LimeUI',
-  base: '/lime-ui/',
-  description: 'another lightweight ui toolkit for Vue.js 2.X',
+  title: '众合科技',
+  base: '/pug-ui/',
+  description: '内部UI组件库',
   port: 8083, 
   themeConfig: {
     nav: [

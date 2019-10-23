@@ -1,6 +1,6 @@
 {
   "name": "@pugbabu/zh-ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Vue.js project",
   "author": "pugbabu <243931551@qq.com>",
   "main": "lib/zh-ui.min.js",
@@ -16,6 +16,13 @@
     "deploy:build": "npm run docs:build && npm run deploy",
     "test": "karma start test/karma.config.js --single-run"
   },
+  "files": [
+    "lib",
+    "src",
+    "package.json",
+    "README.md"
+
+  ],
   "dependencies": {
     "async-validator": "^3.0.4",
     "core-js": "2.6.9",
@@ -62,8 +69,8 @@
     "vuepress": "^1.0.3"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pugbabu/pug-ui.git"
+    "type": "https",
+    "url": "https://github.com/pugbabu/pug-ui.git"
   },
   "homepage": "https://github.com/pugbabu/pug-ui#readme",
   "license": "ISC",

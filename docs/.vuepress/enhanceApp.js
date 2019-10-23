@@ -1,4 +1,4 @@
-import LimeUI from '../../src/index.js'
+import ZhUI from '../../src/index.js'
 import "../../src/styles/index.scss"
 
 export default ({
@@ -6,5 +6,5 @@ export default ({
   options,
   router
 }) => {
-  Vue.use(LimeUI)
+  Vue.use(ZhUI)
 }
